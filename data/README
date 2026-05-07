@@ -27,7 +27,7 @@ As of September 2025, 37 (18 public-research-restoration and 19 commercial) hatc
 
 This research is funded by the USDA Northeast Regional Aquaculture Center Award 123476-Z5220211
 
-About the Analysis:
+About the Experiment:
 The BHHC has developed a screening assay using healthy
 larvae exposed to hatchery-collected samples to identify the type of disease-causing agents
 that could be present in the water or larvae from hatcheries experiencing low larval
@@ -53,6 +53,12 @@ This Script:
 The analysis.py script allows one to upload the mortality results from a larval assay and tease apart the pathology
 of hatchery run. Here is a summary of the outputs:
 1. acute_vs_chronic_comparison.csv: 
+2. avg_mortality_by_treatment.csv:
+3. diagnosis_by_hatchery.csv:
+4. heatmap_acute.png:
+5. heatmap_chronic.png:
+6. max_mortality_by_hatchery.png:
+
 
 
 AI usage:
