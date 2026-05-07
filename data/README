@@ -1,5 +1,58 @@
 About the BHHC:
+In recent years, bivalve hatcheries in the Atlantic Coast of the USA have been affected by
+ larval crashes of unknown causes.  The Bivalve Hatchery Health Consortium (BHHC) was
+ established in 2023 to try to understand the causes leading to reduced larval performance
+ and identify avoidance and prevention tools.   A process was developed for enrollment of
+ hatcheries into the BHHC that protects confidentiality of their data and production practices. 
+ The BHHC also developed a protocol for the proactive collection of samples of water, algae,
+ and larvae from as many good and bad larval production runs as possible throughout the year.
+As of September 2025, 37 (18 public-research-restoration and 19 commercial) hatcheries from the Atlantic
+ Coast of the USA have enrolled in the BHHC.  During the 2024 and 2025 production seasons, hatcheries
+ provided samples and data from more than 80 production runs (from 1 - 8 per hatchery). Sampling covered
+ four bivalve species (mainly eastern oysters, but also northern quahogs, bay scallops, and mussels).  
+ In 2024, 55% of the 33 production runs were crashes or showed low larval performance.  Most bad larval
+ runs showed failure of larvae to progress through development early in the run (by day 6 post
+ fertilization), commonly followed by crashes later in the production run. Histological examination
+ showed no evidence of known pathological conditions or infectious agents in larvae.  Water chemistry
+ analysis showed the presence of potentially toxic elements (e.g., arsenic) in only three of all production
+ runs. More than 500 bacterial isolates were cultured from both good and bad larval runs. Although a few
+ pathogenic vibrios were isolated, there was no consistent association of vibrios with bad runs, suggesting
+ vibriosis is not the primary cause of crashes. Molecular analysis of microbiota, however, showed that bad
+ runs can be predicted based on microbial composition.  Larval challenge experiments using water from larval
+ performance runs suggests that some of these issues could be due to a virus or a toxin/s able to pass through
+ a 0.22-micron filter. Current efforts are focused on toxin (e.g., from algal blooms) and toxicant (anthropogenic
+ chemicals) identification.  Results from the 2024 season suggest that the issues affecting larval production
+ are complex, confirming the need for a collaborative, integrated approach to identify and solve the
+ issues.
+
+This research is funded by the USDA Northeast Regional Aquaculture Center Award 123476-Z5220211
 
 About the Analysis:
+The BHHC has developed a screening assay using healthy
+larvae exposed to hatchery-collected samples to identify the type of disease-causing agents
+that could be present in the water or larvae from hatcheries experiencing low larval
+performance.During the 2024 and 2025 seasons, the BHHC hatcheries proactively collected incoming
+water (before treatment), tank water, and larval samples at different time points in at least
+two production runs. Live larvae from early during the production run (1 - 5 days post
+fertilization) were shipped overnight to our laboratory, washed, and incubated in filtered
+sterile artificial seawater (FSSW) overnight to allow the shedding of infectious agents to the
+water (shed water). At the end of the production run, hatcheries reported the quality of the
+run (from 0 - total loss, to 3 - normal run). Screening assays were developed to identify the
+source and type of agent leading to low larval performance. Incoming, tank, and shed water
+were size fractionated and the fractions were used in larval assays
+to identify which size fractions retain pathogenic effects. Healthy larvae or hemocytes were
+exposed to FSSW (negative control), the non fractionated sample water, 10 micron-filtered
+water (eliminating protozoan and metazoan parasites), 0.22 micron-filtered water
+(eliminating bacteria), and 50 kDa-filtered water (eliminating viruses and retaining toxins
+and small molecules). These assays replicated clinical signs observed in larvae from
+hatchery crashes, indicating their potential to guide the process of identification of causes
+of these larval crashes. 
+
+
+This Script:
+The analysis.py script allows one to upload the mortality results from a larval assay and tease apart the pathology
+of hatchery run. Here is a summary of the outputs:
+1. acute_vs_chronic_comparison.csv: 
+
 
 AI usage:

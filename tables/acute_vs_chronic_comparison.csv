@@ -1,0 +1,72 @@
+hatchery,species,water_type,acute_diagnosis,chronic_diagnosis,final_interpretation
+2UJ-R1,Mercenaria mercenaria,Tank Water,Toxin or pollutant,,Toxin or pollutant
+AGX-R2,Crassostrea virginica,Incoming Water,No water quality issue detected,,No water quality issue detected
+AGX-R2,Crassostrea virginica,Shed Water,No water quality issue detected,"Parasite, bacteria, virus, toxin, or pollutant","Chronic, husbandry, or genetic issue"
+AGX-R2,Crassostrea virginica,Tank Water,No water quality issue detected,,No water quality issue detected
+AGX-R4,Crassostrea virginica,Shed Water,,"Parasite, bacteria, virus, toxin, or pollutant","Chronic, husbandry, or genetic issue"
+AGX-R5,Crassostrea virginica,Shed Water,,"Parasite, bacteria, virus, toxin, or pollutant","Chronic, husbandry, or genetic issue"
+AGX-R6,Crassostrea virginica,Shed Water,,"Parasite, bacteria, virus, toxin, or pollutant","Chronic, husbandry, or genetic issue"
+B47-R1,Crassostrea virginica,Incoming Water,No water quality issue detected,,No water quality issue detected
+B47-R1,Crassostrea virginica,Tank Water,"Virus, toxin, or pollutant",,"Virus, toxin, or pollutant"
+CP8-R1,Crassostrea virginica,Shed Water,No water quality issue detected,,No water quality issue detected
+CP8-R1,Crassostrea virginica,Tank Water,No water quality issue detected,,No water quality issue detected
+FNT-R1,Crassostrea virginica,Incoming Water,No water quality issue detected,,No water quality issue detected
+FNT-R1,Crassostrea virginica,Shed Water,No water quality issue detected,,No water quality issue detected
+FNT-R1,Crassostrea virginica,Tank Water,No water quality issue detected,,No water quality issue detected
+FNT-R3,Crassostrea virginica,Shed Water,,No water quality issue detected,No water quality issue detected
+FYC-E1,Crassostrea virginica,Shed Water,"Virus, toxin, or pollutant",,"Virus, toxin, or pollutant"
+FYC-E2,Crassostrea virginica,Incoming Water,"Virus, toxin, or pollutant",,"Virus, toxin, or pollutant"
+FYC-E2,Crassostrea virginica,Shed Water,"Virus, toxin, or pollutant",,"Virus, toxin, or pollutant"
+FYC-E2,Crassostrea virginica,Tank Water,"Virus, toxin, or pollutant",,"Virus, toxin, or pollutant"
+FYC-R2,Crassostrea virginica,Shed Water,,"Parasite, bacteria, virus, toxin, or pollutant","Chronic, husbandry, or genetic issue"
+H3N-R1,Crassostrea virginica,Incoming Water,No water quality issue detected,,No water quality issue detected
+H3N-R1,Crassostrea virginica,Shed Water,No water quality issue detected,,No water quality issue detected
+H3N-R1,Crassostrea virginica,Tank Water,No water quality issue detected,,No water quality issue detected
+LGG-R1,Crassostrea virginica,Incoming Water,No water quality issue detected,,No water quality issue detected
+LGG-R1,Crassostrea virginica,Tank Water,No water quality issue detected,,No water quality issue detected
+LGG-R2,Crassostrea virginica,Shed Water,No water quality issue detected,,No water quality issue detected
+LGG-R2,Crassostrea virginica,Tank Water,No water quality issue detected,,No water quality issue detected
+LGG-R3,Crassostrea virginica,Incoming Water,No water quality issue detected,,No water quality issue detected
+LGG-R3,Crassostrea virginica,Shed Water,No water quality issue detected,,No water quality issue detected
+LGG-R3,Crassostrea virginica,Tank Water,No water quality issue detected,,No water quality issue detected
+R2A-R2,Crassostrea virginica,Shed Water,,No water quality issue detected,No water quality issue detected
+R2A-R3,Crassostrea virginica,Shed Water,,No water quality issue detected,No water quality issue detected
+R2A-R4,Crassostrea virginica,Shed Water,,No water quality issue detected,No water quality issue detected
+R2A-R5,Crassostrea virginica,Shed Water,,"Parasite, bacteria, virus, toxin, or pollutant","Chronic, husbandry, or genetic issue"
+RGX-R1,Crassostrea virginica,Shed Water,No water quality issue detected,,No water quality issue detected
+RRD-R1,Crassostrea virginica,Incoming Water,"Virus, toxin, or pollutant",,"Virus, toxin, or pollutant"
+RRD-R1,Crassostrea virginica,Shed Water,No water quality issue detected,"Parasite, bacteria, virus, toxin, or pollutant","Chronic, husbandry, or genetic issue"
+RRD-R1,Crassostrea virginica,Tank Water,"Virus, toxin, or pollutant",,"Virus, toxin, or pollutant"
+RRD-R2,Crassostrea virginica,Incoming Water,"Virus, toxin, or pollutant",,"Virus, toxin, or pollutant"
+RRD-R2,Crassostrea virginica,Tank Water,"Virus, toxin, or pollutant",,"Virus, toxin, or pollutant"
+RRD-R3,Crassostrea virginica,Incoming Water,No water quality issue detected,,No water quality issue detected
+RRD-R3,Crassostrea virginica,Shed Water,"Virus, toxin, or pollutant",,"Virus, toxin, or pollutant"
+RRD-R3,Crassostrea virginica,Tank Water,"Bacteria, virus, toxin, or pollutant",,"Bacteria, virus, toxin, or pollutant"
+S3W-R3,Crassostrea virginica,Shed Water,,No water quality issue detected,No water quality issue detected
+S3W-R3,Crassostrea virginica,Tank Water,No water quality issue detected,,No water quality issue detected
+S3W-R4,Crassostrea virginica,Incoming Water,No water quality issue detected,,No water quality issue detected
+S3W-R4,Crassostrea virginica,Shed Water,"Bacteria, virus, toxin, or pollutant",,"Bacteria, virus, toxin, or pollutant"
+S3W-R4,Crassostrea virginica,Tank Water,No water quality issue detected,,No water quality issue detected
+S3W-R5,Crassostrea virginica,Incoming Water,"Virus, toxin, or pollutant",,"Virus, toxin, or pollutant"
+S3W-R5,Crassostrea virginica,Shed Water,No water quality issue detected,,No water quality issue detected
+S3W-R5,Crassostrea virginica,Tank Water,No water quality issue detected,,No water quality issue detected
+TRG-R2,Crassostrea virginica,Incoming Water,"Virus, toxin, or pollutant",,"Virus, toxin, or pollutant"
+TRG-R2,Crassostrea virginica,Shed Water,"Virus, toxin, or pollutant",,"Virus, toxin, or pollutant"
+TRG-R2,Crassostrea virginica,Tank Water,"Virus, toxin, or pollutant",,"Virus, toxin, or pollutant"
+TXP-R1,Crassostrea virginica,Incoming Water,"Virus, toxin, or pollutant",,"Virus, toxin, or pollutant"
+TXP-R1,Crassostrea virginica,Shed Water,"Virus, toxin, or pollutant",,"Virus, toxin, or pollutant"
+TXP-R1,Crassostrea virginica,Tank Water,"Virus, toxin, or pollutant",,"Virus, toxin, or pollutant"
+V7H-R1,Mercenaria mercenaria,Incoming Water,"Virus, toxin, or pollutant",,"Virus, toxin, or pollutant"
+V7H-R1,Mercenaria mercenaria,Shed Water,"Virus, toxin, or pollutant",,"Virus, toxin, or pollutant"
+V7H-R1,Mercenaria mercenaria,Tank Water,Toxin or pollutant,,Toxin or pollutant
+V7H-R2,Mercenaria mercenaria,Tank Water,Toxin or pollutant,,Toxin or pollutant
+WFH-R1,Crassostrea virginica,Shed Water,"Parasite, bacteria, virus, toxin, or pollutant",,"Parasite, bacteria, virus, toxin, or pollutant"
+WFH-R1,Crassostrea virginica,Tank Water,"Virus, toxin, or pollutant",,"Virus, toxin, or pollutant"
+XXH-R1,Mercenaria mercenaria,Incoming Water,"Virus, toxin, or pollutant",,"Virus, toxin, or pollutant"
+XXH-R1,Mercenaria mercenaria,Shed Water,"Virus, toxin, or pollutant",,"Virus, toxin, or pollutant"
+XXH-R1,Mercenaria mercenaria,Tank Water,"Virus, toxin, or pollutant",,"Virus, toxin, or pollutant"
+XZV-R4,Mercenaria mercenaria,Tank Water,Toxin or pollutant,,Toxin or pollutant
+Y9P-R1,Mercenaria mercenaria,Tank Water,Toxin or pollutant,,Toxin or pollutant
+YPH-R2,Crassostrea virginica,Incoming Water,No water quality issue detected,,No water quality issue detected
+YPH-R2,Crassostrea virginica,Shed Water,No water quality issue detected,No water quality issue detected,No water quality issue detected
+YPH-R2,Crassostrea virginica,Tank Water,No water quality issue detected,,No water quality issue detected

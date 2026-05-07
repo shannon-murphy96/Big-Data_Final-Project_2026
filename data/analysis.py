@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
-# analysis.py
-# Analyzes shellfish hatchery larval bioassay data to identify water quality issues
+# analysis.py 
+# Analyzes shellfish hatchery larval bioassay results to identify causative agents of crashes and where they're being introduced
 # and determine the likely causative agent based on filtration size
 # Research Question: Where do water quality issues arise in shellfish hatcheries
-# (incoming water, tank water, or shed water), and what is the likely causative
+# (incoming water or tank water), and what is the likely causative
 # agent based on which filter size still allows larval mortality to occur?
 # Usage: python analysis.py [data file]
 # Example: python analysis.py data/BHHC_data.csv
