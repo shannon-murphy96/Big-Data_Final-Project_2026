@@ -1,3 +1,5 @@
+Analysis and AI statement: https://drive.google.com/drive/folders/1L_anKQVwOKWFRDcIG0HKkv5wzQ837jJa?usp=drive_link 
+
 About the BHHC:
 In recent years, bivalve hatcheries in the Atlantic Coast of the USA have been affected by
 larval crashes of unknown causes.  The Bivalve Hatchery Health Consortium (BHHC) was
