@@ -22,7 +22,8 @@ A treatment is flagged if average % mortality across the 3 replicates exceeds
 issues from chronic/husbandry/genetic problems.
 
 Usage:
-    python analysis.py <path_to_data_file>
+    python analysis.py <path_to_data_file>   # pass file path directly
+    python analysis.py                        # will prompt you to enter the path
 
 Example:
     python analysis.py data/BHHC_data.csv
@@ -35,12 +36,21 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-# ── Check that a file path was provided on the command line ───────────────────
-if len(sys.argv) != 2:
-    print("Usage: python analysis.py <path_to_data_file>")
-    sys.exit(1)
+# ── Get the data file path ─────────────────────────────────────────────────────
+# Accepts the file path two ways:
+#   1. As a command-line argument: python analysis.py data/myfile.csv
+#   2. Interactively: just run python analysis.py and it will ask you
+if len(sys.argv) == 2:
+    DATA_FILE = sys.argv[1]  # path provided on the command line
+else:
+    # No argument given — prompt the user to type the path
+    DATA_FILE = input("Enter path to data file (e.g. data/BHHC_data.csv): ").strip()
 
-DATA_FILE = sys.argv[1]  # path to the CSV/Excel file, passed in at run time
+# Check that the file actually exists before trying to load it
+if not os.path.exists(DATA_FILE):
+    print(f"Error: file not found: {DATA_FILE}")
+    print("Please check the path and try again.")
+    sys.exit(1)
 
 
 # ── Output directories (relative to wherever the script is run from) ──────────
@@ -289,6 +299,20 @@ for assay_type in sorted(avg["assay_type"].dropna().unique()):
     ax.tick_params(axis="x", rotation=45)
     ax.tick_params(axis="y", rotation=0)
 
+    # Add a descriptive figure caption below the heatmap
+    # This follows academic convention: caption explains what is shown,
+    # what the colors mean, and how to interpret the threshold
+    fig.text(
+        0.5, -0.02,
+        f"Figure 1. Average percent larval mortality for {assay_type.lower()} assays across hatcheries and treatment types. "
+        f"Cell color and value indicate average % mortality across 3 replicates. "
+        f"Yellow = low mortality; red = high mortality (scale 0–100%). "
+        f"Values above {MORTALITY_THRESHOLD}% indicate a potential water quality issue. "
+        f"Columns show water source (Incoming, Tank, or Shed) combined with filter size "
+        f"(Unfiltered, 10µm, 0.22µm, or 100 kDa).",
+        ha="center", fontsize=9, style="italic", wrap=True
+    )
+
     plt.tight_layout()
 
     outpath = os.path.join(FIGURES_DIR, f"heatmap_{assay_type.lower()}.png")
@@ -337,6 +361,20 @@ ax.set_ylabel("Max Avg. % Mortality")
 ax.set_xlabel("Hatchery")
 ax.set_title("Maximum Average Larval Mortality per Hatchery by Assay Type")
 ax.legend()
+
+# Add a descriptive figure caption below the bar chart
+# Caption explains axes, bar colors, and the meaning of the threshold line
+fig.text(
+    0.5, -0.02,
+    "Figure 2. Maximum average larval mortality per hatchery by assay type. "
+    "Blue bars = acute assay (20–24 hr); orange bars = chronic assay (7 day). "
+    "Each bar represents the highest average % mortality observed across all "
+    "water source and filter combinations for that hatchery. "
+    "Red dashed line indicates the 10% mortality threshold; hatcheries exceeding "
+    "this threshold in acute assays indicate a water quality issue.",
+    ha="center", fontsize=9, style="italic", wrap=True
+)
+
 plt.tight_layout()
 
 bar_out = os.path.join(FIGURES_DIR, "max_mortality_by_hatchery.png")
