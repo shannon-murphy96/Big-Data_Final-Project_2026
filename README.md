@@ -50,7 +50,7 @@ of these larval crashes.
 
 
 This Script:
-The analysis.py script allows one to upload the mortality results from a larval assay and tease apart
+The analysis.py script which can be found in the data folder of this repository allows one to upload the mortality results from a larval assay and tease apart
 the pathology of hatchery run. Note that hatcheries runs are identified using their anonymous codes 
 and which number run is being analyzed, for example S3W-R2 refers to hatchery code S3W and the second run of
 samples they've provided. 
